@@ -21,6 +21,12 @@
 
         //}
         #endregion
+        #region q6 
+        //static void ApplyDiscount(double[] prices)
+        //{
+        //    prices[0] -= 5;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -53,7 +59,15 @@
             //Console.Write(Pages);
             //// i expect to see 400 , cuz we did use passing by value - value type "copy of the value ".
             #endregion
+            #region q6 
+            //double[] prices = { 25.5, 40.0 };
+            //Console.WriteLine($"before : {prices[0]}");
+            //ApplyDiscount(prices);
+            //Console.WriteLine($"after : {prices[0]}");
+            //Console.WriteLine($"after : {prices[0]}");
 
+            ////i expect to see 20.5 , cuz we did use passing by value - reference type "copy of the referece ".
+            #endregion
 
         }
     }
