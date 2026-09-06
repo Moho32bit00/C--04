@@ -27,6 +27,12 @@
         //    prices[0] -= 5;
         //}
         #endregion
+        #region q7 
+        //static void AddBonusPages(ref int pages)
+        //{
+        //    pages = pages + 50;
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -68,6 +74,13 @@
 
             ////i expect to see 20.5 , cuz we did use passing by value - reference type "copy of the referece ".
             #endregion
+            #region q7 
+            //int pages = 400;
+            //AddBonusPages(ref pages);
+            //Console.WriteLine(pages);
+            ////it is diff cuz here we did use passing by reference - value type 
+            #endregion
+
 
         }
     }
