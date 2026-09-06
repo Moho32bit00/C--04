@@ -8,7 +8,12 @@
         //    Console.WriteLine("Welcome to the Library!");
         //}
         #endregion
-
+        #region q4
+        //static void PrintBookTitle(string title)
+        //{
+        //    Console.WriteLine($"Book title : {title}");
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -31,6 +36,13 @@
             #region q3
             //PrintWelcomeMessage();
             #endregion
+            #region q4 
+            //string title = "Clean Code";
+            //PrintBookTitle(title);
+            #endregion
+
+
+
         }
     }
 }
