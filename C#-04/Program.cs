@@ -2,6 +2,13 @@
 {
     internal class Program
     {
+        #region q3
+        //static void PrintWelcomeMessage()
+        //{
+        //    Console.WriteLine("Welcome to the Library!");
+        //}
+        #endregion
+
         static void Main(string[] args)
         {
             #region q1 
@@ -20,6 +27,9 @@
             //    }
             //    Console.WriteLine();
             //}
+            #endregion
+            #region q3
+            //PrintWelcomeMessage();
             #endregion
         }
     }
