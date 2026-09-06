@@ -57,6 +57,13 @@
         //    Console.WriteLine(pages);
         //}
         #endregion
+        #region q11 
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine(title);
+        //    Console.WriteLine(pages);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -130,6 +137,9 @@
             //PrintBookInfo(title );
             //Console.WriteLine("2)title , pages : ");
             //PrintBookInfo(title , pages);
+            #endregion
+            #region q11 
+            //PrintBookInfo(pages:400 ,title:"berserk" );
             #endregion
         }
     }
