@@ -64,6 +64,17 @@
         //    Console.WriteLine(pages);
         //}
         #endregion
+        #region q12 
+        //static void PrintAllTitles(params string[] titles)
+        //{
+        //    int i = 0;
+        //    foreach (string title in titles)
+        //    {
+        //        i += 1; 
+        //        Console.WriteLine($"{i}){title}");
+        //    }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -140,6 +151,9 @@
             #endregion
             #region q11 
             //PrintBookInfo(pages:400 ,title:"berserk" );
+            #endregion
+            #region q12 
+            //PrintAllTitles("berserk", "jojo", "jjk ");
             #endregion
         }
     }
