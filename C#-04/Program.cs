@@ -14,6 +14,13 @@
         //    Console.WriteLine($"Book title : {title}");
         //}
         #endregion
+        #region q5 
+        //static void AddBonusPages(int pages)
+        //{
+        //    pages = pages + 50 ;
+
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -40,7 +47,12 @@
             //string title = "Clean Code";
             //PrintBookTitle(title);
             #endregion
-
+            #region q5 
+            //int Pages = 400;
+            //AddBonusPages(Pages);
+            //Console.Write(Pages);
+            //// i expect to see 400 , cuz we did use passing by value - value type "copy of the value ".
+            #endregion
 
 
         }
