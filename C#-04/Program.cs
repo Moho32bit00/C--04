@@ -33,6 +33,12 @@
         //    pages = pages + 50;
         //}
         #endregion
+        #region q8 
+        //static void ReplaceArray(ref double[] prices)
+        //{
+        //    prices = new double []{ 10.0, 12.5, 15.0 };
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -80,7 +86,19 @@
             //Console.WriteLine(pages);
             ////it is diff cuz here we did use passing by reference - value type 
             #endregion
+            #region q8 
+            //double[] prices = { 10.2, 12.4 };
+            //ReplaceArray(ref  prices);
+            //int i = 0;
+            //Console.WriteLine("after method ");
+            //foreach (var pr in prices)
+            //{
+            //    i += 1;
+            //    Console.WriteLine($"{i}){pr}");
+            //}
+            //Console.WriteLine($"length : {prices.Length}");
 
+            #endregion
 
         }
     }
