@@ -50,6 +50,13 @@
         //    else { price = 0; return false; }
         //}
         #endregion
+        #region q10 
+        //static void PrintBookInfo(string title, int pages = 300)
+        //{
+        //    Console.WriteLine(title);
+        //    Console.WriteLine(pages);
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -115,6 +122,14 @@
             //bool flag = TryGetPrice(title, out double price);
             //Console.WriteLine(flag);
             //Console.WriteLine(price);
+            #endregion
+            #region q10 
+            //int pages = 50;
+            //string title = "berserk";
+            //Console.WriteLine("1)only title : ");
+            //PrintBookInfo(title );
+            //Console.WriteLine("2)title , pages : ");
+            //PrintBookInfo(title , pages);
             #endregion
         }
     }
