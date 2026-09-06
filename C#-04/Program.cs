@@ -39,6 +39,17 @@
         //    prices = new double []{ 10.0, 12.5, 15.0 };
         //}
         #endregion
+        #region q9 
+        //static bool TryGetPrice(string title, out double price)
+        //{
+        //    if (title == "Clean Code")
+        //    {
+        //        price = 25.5;
+        //        return true;
+        //    }
+        //    else { price = 0; return false; }
+        //}
+        #endregion
         static void Main(string[] args)
         {
             #region q1 
@@ -99,7 +110,12 @@
             //Console.WriteLine($"length : {prices.Length}");
 
             #endregion
-
+            #region q9 
+            //string title = "Clean Code";
+            //bool flag = TryGetPrice(title, out double price);
+            //Console.WriteLine(flag);
+            //Console.WriteLine(price);
+            #endregion
         }
     }
 }
